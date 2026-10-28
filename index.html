@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4e9">
+  <meta name="description" content="مكتبة الشام — ملازم دراسية أصلية ومستنسخة، والقرطاسية قريباً.">
+  <title>مكتبة الشام | ملازمك، بطريقتك</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement-bar">
+    <span class="announcement-dot" aria-hidden="true"></span>
+    <p>كل خطوة دراسية تستحق بداية مرتبة <span>— أهلاً بك في مكتبة الشام</span></p>
+    <a href="#catalog">تصفّح الملازم <span aria-hidden="true">←</span></a>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="مكتبة الشام - الصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img"><path d="M9 10.5c5-2.4 10.2-1.4 15 2.2v25c-4.5-3.1-9.4-4.1-15-2V10.5Z"/><path d="M39 10.5c-5-2.4-10.2-1.4-15 2.2v25c4.5-3.1 9.4-4.1 15-2V10.5Z"/><path d="M24 13v25"/><path d="m15 16 5 2m-5 4 5 2m13-8-5 2m5 2-5 2"/></svg>
+        </span>
+        <span class="brand-copy"><strong>مكتبة الشام</strong><small>لأنّ لكل هدف بداية</small></span>
+      </a>
+
+      <button class="mobile-menu-toggle icon-button" id="mobileMenuToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mainNav">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="القائمة الرئيسية">
+        <a class="nav-link active" href="#top">الرئيسية</a>
+        <a class="nav-link" href="#catalog">الملازم الدراسية</a>
+        <a class="nav-link" href="#stationery">القرطاسية <span class="nav-coming">قريباً</span></a>
+        <a class="nav-link" href="#about">عن المكتبة</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button search-open" id="searchFocusButton" aria-label="التركيز على البحث" title="بحث">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.5"/><path d="m16 16 4 4"/></svg>
+        </button>
+        <button class="cart-button" id="openCartButton" aria-label="فتح سلة المشتريات">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="9.5" cy="19" r="1.2"/><circle cx="17.5" cy="19" r="1.2"/></svg>
+          <span>السلة</span><b class="cart-count" id="cartCount">0</b>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-star">✳</span> وجهتك الدراسية صارت أقرب</div>
+          <h1>رتّب دراستك،<br><span>وخلّ الباقي علينا.</span></h1>
+          <p class="hero-description">ملازم دراسية للمراحل الإعدادية والثالث المتوسط، بفروعها العلمي والأدبي والمهني. اختَر الملازم الأصلية أو المستنسخة، واطلبها من مكانك.</p>
+          <div class="hero-cta-row">
+            <a class="button button-primary" href="#catalog">اكتشف الملازم <span aria-hidden="true">←</span></a>
+            <a class="button button-secondary" href="#about"><span class="play-icon" aria-hidden="true">↙</span> تعرّف على المكتبة</a>
+          </div>
+          <div class="hero-trust-row">
+            <div class="trust-avatars" aria-hidden="true"><span>ش</span><span>م</span><span>ق</span></div>
+            <div><strong>كل ما تحتاجه لبداية أوضح</strong><small>توصيل لجميع المحافظات • 5,000 د.ع</small></div>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="تصميم توضيحي لملازم دراسية">
+          <div class="art-sticker sticker-top"><span>✳</span><div><strong>خُطوة بخُطوة</strong><small>نحو هدفك</small></div></div>
+          <div class="book-stack stack-back"><div class="book-spine"></div><span>STUDY / 06</span></div>
+          <div class="book-cover cover-main">
+            <div class="cover-topline"><span>مكتبة الشام</span><span>٢٠٢٦</span></div>
+            <div class="cover-graphic graphic-orbit"><i></i><b></b><em></em></div>
+            <div class="cover-title"><small>خطتك تبدأ من هنا</small><strong>دفتر<br>الإنجاز</strong></div>
+            <div class="cover-bottom"><span>رتّب أفكارك</span><span>01 — 06</span></div>
+          </div>
+          <div class="book-cover cover-side">
+            <div class="side-pattern"></div><span class="side-small">LEARN / GROW</span><strong>مسارك<br>الدراسي</strong><span class="side-bottom">الشام · ٢٠٢٦</span>
+          </div>
+          <div class="art-sticker sticker-bottom"><span class="sticker-check">✓</span><div><strong>اختيارك أسهل</strong><small>أصلي أو مستنسخ</small></div></div>
+          <div class="art-mini-note"><span>↗</span> خطتك تستاهل الأفضل</div>
+        </div>
+      </div>
+      <div class="hero-bottom-line" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="value-strip" aria-label="مميزات المكتبة">
+      <div class="container value-grid">
+        <div class="value-item"><span class="value-icon icon-sage"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5c3-1.5 5.5-.6 8 1.3v12c-2.5-1.9-5-2.8-8-1.3v-12ZM20 5.5c-3-1.5-5.5-.6-8 1.3v12c2.5-1.9 5-2.8 8-1.3v-12Z"/></svg></span><div><strong>ملازم متنوعة</strong><small>للرابع والخامس والسادس والثالث المتوسط</small></div></div>
+        <div class="value-item"><span class="value-icon icon-yellow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.3 5.1 5.7.6-4.2 3.9 1.2 5.6L12 15.3 7 18.2l1.2-5.6L4 8.7l5.7-.6L12 3Z"/></svg></span><div><strong>أصلي ومستنسخ</strong><small>اختَر النوع المناسب لك</small></div></div>
+        <div class="value-item"><span class="value-icon icon-blue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0"/><path d="M4 12v4a2 2 0 0 0 2 2h2v-6H6a2 2 0 0 0-2 2Zm16 0v4a2 2 0 0 1-2 2h-2v-6h2a2 2 0 0 1 2 2Z"/><path d="M12 20h2"/></svg></span><div><strong>تجربة طلب سهلة</strong><small>رتّب اختياراتك في السلة</small></div></div>
+        <div class="value-item"><span class="value-icon icon-pale"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 2.9 7.5 7 10 4.1-2.5 7-5.5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><strong>تفاصيل واضحة</strong><small>السعر والنوع بكل بطاقة</small></div></div>
+      </div>
+    </section>
+
+    <section class="store-service-strip" aria-label="التوصيل والتواصل">
+      <div class="container store-service-inner">
+        <div class="service-fact"><span class="service-icon">↗</span><div><strong>توصيل لكل العراق</strong><small>أجور ثابتة 5,000 د.ع</small></div></div>
+        <div class="service-fact"><span class="service-icon">▣</span><div><strong>طرق دفع متعددة</strong><small>عند التوصيل أو ماستر كارد بعد التأكيد</small></div></div>
+        <div class="service-contact"><a href="https://wa.me/964786618512" target="_blank" rel="noopener">اطلب عبر واتساب</a><a href="https://t.me/sham1lib" target="_blank" rel="noopener">تيليغرام @sham1lib</a></div>
+      </div>
+    </section>
+
+    <section class="catalog-section section-padding" id="catalog">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div><div class="section-kicker"><span></span> اختَر اللي يناسبك</div><h2>مكتبة ملازمك <span>الدراسية.</span></h2><p>ابحث حسب المادة أو المرحلة، وقارن بين الملازم الأصلية والمستنسخة.</p></div>
+          <div class="catalog-caption"><span class="caption-icon">✳</span><span>ترتيب أوضح،<br><strong>دراسة أهدأ.</strong></span></div>
+        </div>
+
+        <div class="catalog-toolbar">
+          <label class="search-field" for="catalogSearch"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.5"/><path d="m16 16 4 4"/></svg><input id="catalogSearch" type="search" placeholder="ابحث عن ملزمة، مادة، أو مرحلة..." autocomplete="off"><kbd>⌕</kbd></label>
+          <label class="sort-control"><span>ترتيب حسب</span><select id="sortSelect"><option value="featured">المقترحة أولاً</option><option value="price-asc">السعر: من الأقل</option><option value="price-desc">السعر: من الأعلى</option><option value="name">الاسم: أ - ي</option></select></label>
+        </div>
+
+        <div class="filter-row" aria-label="تصفية الملازم">
+          <div class="filter-chips" id="gradeFilters">
+            <button class="filter-chip active" data-grade="all" type="button">كل المراحل <span id="productCount">00</span></button>
+            <button class="filter-chip" data-grade="sixth" type="button">السادس الإعدادي</button>
+            <button class="filter-chip" data-grade="fifth" type="button">الخامس الإعدادي</button>
+            <button class="filter-chip" data-grade="fourth" type="button">الرابع الإعدادي</button>
+            <button class="filter-chip" data-grade="third_intermediate" type="button">الثالث المتوسط</button>
+          </div>
+          <div class="type-filters" id="branchFilters" aria-label="الفرع الدراسي">
+            <button type="button" class="type-filter active" data-branch="all">كل الفروع</button>
+            <button type="button" class="type-filter" data-branch="scientific">علمي</button>
+            <button type="button" class="type-filter" data-branch="literary">أدبي</button>
+            <button type="button" class="type-filter" data-branch="vocational">مهني</button>
+          </div>
+          <div class="type-filters" id="typeFilters" aria-label="نوع الملزمة">
+            <button type="button" class="type-filter active" data-kind="all">الكل</button>
+            <button type="button" class="type-filter" data-kind="original"><span class="type-dot dot-original"></span>أصلي</button>
+            <button type="button" class="type-filter" data-kind="copy"><span class="type-dot dot-copy"></span>مستنسخ</button>
+          </div>
+        </div>
+
+        <div class="results-line"><p id="resultsSummary" aria-live="polite">نعرض لك الملازم المتاحة</p><button id="clearFiltersButton" type="button" class="clear-filters">إعادة ضبط الفلاتر <span>↺</span></button></div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden><div class="empty-illustration">⌕</div><h3>ما لقينا نتيجة مطابقة</h3><p>جرّب كلمة بحث ثانية أو غيّر الفلاتر حتى تكتشف خيارات أكثر.</p><button type="button" id="emptyResetButton" class="button button-primary">عرض كل الملازم</button></div>
+        <div class="catalog-footnote" id="catalogNotice"><span>ⓘ</span> يتم تحديث قائمة الملازم من إدارة مكتبة الشام. إذا لم تظهر منتجات، تواصل ويّا المكتبة عبر واتساب أو تيليغرام.</div>
+      </div>
+    </section>
+
+    <section class="study-banner" id="about">
+      <div class="container study-banner-inner">
+        <div class="banner-doodle" aria-hidden="true"><span>✳</span><i></i><b></b><em></em></div>
+        <div class="banner-copy"><div class="section-kicker light-kicker"><span></span> مكتبة الشام</div><h2>مو بس ملزمة؛<br>بداية طريقك للهدف.</h2><p>نؤمن أن التنظيم يخفف زحمة الدراسة. لهذا صممنا تجربة بسيطة تساعدك توصل لاختياراتك بشكل أوضح.</p><a href="#catalog" class="button button-light">ابدأ اختيارك <span>←</span></a></div>
+        <div class="banner-details"><div class="detail-line"><span>01</span><div><strong>اختَر المرحلة</strong><small>وصّل للمواد الأقرب لاحتياجك</small></div></div><div class="detail-line"><span>02</span><div><strong>حدّد نوع الملزمة</strong><small>أصلية أو مستنسخة، حسب المتوفر</small></div></div><div class="detail-line"><span>03</span><div><strong>أضفها إلى السلة</strong><small>راجع اختياراتك قبل إرسال الطلب</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="stationery-section section-padding" id="stationery">
+      <div class="container stationery-layout">
+        <div class="stationery-copy"><div class="section-kicker"><span></span> مساحة جديدة قيد التحضير</div><h2>والقرطاسية؟ <span>قريباً.</span></h2><p>دفاتر، أقلام، أدوات تنظيم وكل التفاصيل الصغيرة اللي تخلي يومك الدراسي ألطف. نجهّزها حتى تكون جزء من مكتبة الشام.</p><div class="coming-soon-line"><span class="pulse-dot"></span> نرتّب الرفوف الآن <span class="coming-tag">COMING SOON</span></div></div>
+        <div class="stationery-art" aria-label="رسم توضيحي لأدوات قرطاسية قادمة"><div class="stationery-sun"></div><div class="pencil pencil-one"><span></span></div><div class="pencil pencil-two"><span></span></div><div class="notebook"><div class="notebook-coils"></div><div class="notebook-label"><span>SHAM</span><strong>IDEAS<br>IN BLOOM</strong><small>اكتب فكرتك القادمة</small></div></div><div class="paper-note">قريباً<br><span>على رفوفنا</span></div><div class="tiny-star star-a">✳</div><div class="tiny-star star-b">✦</div></div>
+      </div>
+    </section>
+
+    <section class="faq-section section-padding">
+      <div class="container faq-layout">
+        <div class="faq-intro"><div class="section-kicker"><span></span> قبل لا تختار</div><h2>أسئلة بسيطة،<br><span>إجابات أوضح.</span></h2><p>نريد تجربة اختيار سهلة من أول زيارة. هذه أهم التفاصيل حول الملازم والطلب.</p><a class="text-link" href="#catalog">تصفّح الملازم الآن <span>←</span></a></div>
+        <div class="faq-list" id="faqList">
+          <details class="faq-item" open><summary><span>شنو الفرق بين الملزمة الأصلية والمستنسخة؟</span><i>+</i></summary><p>نوع كل ملزمة موضّح على بطاقتها. راجع التفاصيل قبل الإضافة للسلة، والتوفر النهائي يحتاج تأكيد المكتبة.</p></details>
+          <details class="faq-item"><summary><span>كم أجور التوصيل؟</span><i>+</i></summary><p>التوصيل متاح لجميع محافظات العراق بأجور ثابتة قدرها 5,000 دينار عراقي لكل طلب.</p></details>
+          <details class="faq-item"><summary><span>شنو طرق الدفع المتاحة؟</span><i>+</i></summary><p>الدفع عند التوصيل متاح. أما الماستر كارد فيُسجّل كطريقة دفع بانتظار تأكيد المكتبة؛ لا تدخل بيانات بطاقتك في الموقع، إذ يجب إعداد بوابة دفع آمنة أولاً.</p></details>
+          <details class="faq-item"><summary><span>شلون أرسل طلبي؟</span><i>+</i></summary><p>أضف الملازم للسلة، أدخل معلوماتك وعنوانك، وأرسل الطلب. يصل الطلب إلى إدارة المكتبة عبر نظام المتجر وبوت تيليغرام بعد إعداد الربط.</p></details>
+          <details class="faq-item"><summary><span>القرطاسية متوفرة حالياً؟</span><i>+</i></summary><p>قسم القرطاسية قيد التجهيز ويظهر حالياً بحالة «قريباً».</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-cta"><div class="container bottom-cta-inner"><div><span class="bottom-spark">✳</span><h2>خلّ بدايتك مرتّبة.</h2><p>الملازم اللي تحتاجها بانتظار اختيارك.</p></div><a href="#catalog" class="button button-primary">تصفّح المكتبة <span>←</span></a></div></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M9 10.5c5-2.4 10.2-1.4 15 2.2v25c-4.5-3.1-9.4-4.1-15-2V10.5Z"/><path d="M39 10.5c-5-2.4-10.2-1.4-15 2.2v25c4.5-3.1 9.4-4.1 15-2V10.5Z"/><path d="M24 13v25"/><path d="m15 16 5 2m-5 4 5 2m13-8-5 2m5 2-5 2"/></svg></span><span class="brand-copy"><strong>مكتبة الشام</strong><small>لأنّ لكل هدف بداية</small></span></a>
+      <p class="footer-message">مكان واحد لاختياراتك الدراسية،<br>وبداية مرتّبة لكل خطوة.</p>
+      <div class="footer-links"><a href="#catalog">الملازم</a><a href="#stationery">القرطاسية</a><a href="https://wa.me/964786618512" target="_blank" rel="noopener">واتساب الطلبات</a><a href="https://t.me/sham1lib" target="_blank" rel="noopener">تيليغرام</a><a href="#about">عن المكتبة</a><a href="#top">العودة للأعلى ↑</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="currentYear">2026</span> مكتبة الشام. جميع الحقوق محفوظة.</span><span>مصمم بعناية للدراسة اليومية <b>✳</b></span></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true" inert>
+    <div class="drawer-header"><div><span class="drawer-kicker">اختياراتك</span><h2 id="cartTitle">سلة المشتريات <span id="drawerItemCount">(0)</span></h2></div><button type="button" class="icon-button close-drawer" id="closeCartButton" aria-label="إغلاق السلة"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty"><div class="cart-empty-icon">＋</div><h3>سلتك بعدها فارغة</h3><p>ابدأ باختيار الملازم اللي تحتاجها، وراح تظهر هنا.</p><button type="button" id="browseFromCartButton" class="button button-secondary">تصفّح الملازم</button></div>
+    <div class="drawer-footer" id="drawerFooter" hidden><div class="subtotal-row"><span>مجموع الملازم</span><strong id="cartSubtotal">0 د.ع</strong></div><div class="subtotal-row shipping-row"><span>التوصيل لجميع المحافظات</span><strong id="cartShipping">5,000 د.ع</strong></div><div class="subtotal-row"><span>الإجمالي التقديري</span><strong id="cartGrandTotal">5,000 د.ع</strong></div><p>السعر والتوفر النهائيان يؤكَّدان من المكتبة.</p><button type="button" id="checkoutButton" class="button button-primary checkout-button">متابعة الطلب <span>←</span></button><button type="button" id="continueShoppingButton" class="continue-shopping">متابعة التسوّق</button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden></div>
+  <section class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" aria-hidden="true" inert>
+    <div class="modal-header"><div><span class="drawer-kicker">خطوة أخيرة</span><h2 id="checkoutTitle">تفاصيل الطلب</h2></div><button type="button" class="icon-button" id="closeCheckoutButton" aria-label="إغلاق النافذة"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <p class="modal-description">أدخل معلوماتك وعنوانك، وراح نرسل طلبك للمكتبة. التوصيل 5,000 د.ع إلى جميع المحافظات.</p>
+    <form id="checkoutForm" class="checkout-form">
+      <label for="customerName">الاسم <span>*</span><input id="customerName" name="customerName" autocomplete="name" required maxlength="80" placeholder="اسمك الكريم"></label>
+      <label for="customerPhone">رقم الهاتف <span>*</span><input id="customerPhone" name="customerPhone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="30" placeholder="07xx xxx xxxx"></label>
+      <label for="customerProvince">المحافظة <span>*</span><select id="customerProvince" name="customerProvince" required><option value="">اختر المحافظة</option><option>بغداد</option><option>نينوى</option><option>البصرة</option><option>أربيل</option><option>السليمانية</option><option>دهوك</option><option>حلبجة</option><option>كركوك</option><option>الأنبار</option><option>ديالى</option><option>صلاح الدين</option><option>بابل</option><option>كربلاء</option><option>النجف</option><option>القادسية</option><option>المثنى</option><option>ذي قار</option><option>ميسان</option><option>واسط</option></select></label>
+      <label for="customerAddress">العنوان بالتفصيل <span>*</span><textarea id="customerAddress" name="customerAddress" rows="2" maxlength="300" required placeholder="المنطقة، أقرب نقطة دالة، رقم الدار..."></textarea></label>
+      <label for="paymentMethod">طريقة الدفع <span>*</span><select id="paymentMethod" name="paymentMethod" required><option value="cod">الدفع عند التوصيل</option><option value="mastercard">ماستر كارد — بانتظار تأكيد المكتبة</option></select></label>
+      <label for="orderNotes">ملاحظة إضافية <small>(اختياري)</small><textarea id="orderNotes" name="orderNotes" rows="2" maxlength="500" placeholder="ملاحظات إضافية للطلب..."></textarea></label>
+      <div class="checkout-summary"><div><span>عدد القطع</span><strong id="checkoutCount">0</strong></div><div><span>مجموع الملازم</span><strong id="checkoutSubtotal">0 د.ع</strong></div><div><span>التوصيل</span><strong id="checkoutShipping">5,000 د.ع</strong></div><div><span>الإجمالي</span><strong id="checkoutTotal">5,000 د.ع</strong></div></div>
+      <p class="form-status" id="checkoutStatus" role="status" hidden></p>
+      <button type="submit" class="button button-primary submit-order-button">تجهيز الطلب <span>↗</span></button>
+      <p class="privacy-note">لا تدخل رقم البطاقة أو رمزها في هذا النموذج. اختيار الماستر كارد لا يعني تحصيل الدفع إلكترونياً حتى تُربط بوابة دفع آمنة.</p>
+    </form>
+  </section>
+
+  <div class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="productModalTitle" aria-hidden="true" inert>
+    <button type="button" class="icon-button product-modal-close" id="closeProductModalButton" aria-label="إغلاق التفاصيل"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    <div id="productModalContent"></div>
+  </div>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="config.js"></script>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
